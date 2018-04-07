@@ -1,0 +1,56 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Search - List</title>
+	<link href="css/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container padding">
+    <div class="row">
+		<div class="col-md-12">
+				<input id="search" type="text" class="form-control" placeholder="Search" />
+		</div>
+		<div class="col-md-12">
+		<div id="custom-search-input">
+				<div class="item">Cras justo odio</div>
+				<div class="item">Dapibus ac facilisis in</div>
+				<div class="item">Morbi leo risus</div>
+				<div class="item">Porta ac consectetur ac</div>
+				<div class="item">Vestibulum at eros</div>
+				<div class="item">Cras justo odio</div>
+				<div class="item">Dapibus ac facilisis in</div>
+				<div class="item">Morbi leo risus</div>
+				<div class="item">Porta ac consectetur ac</div>
+				<div class="item">Vestibulum at eros</div>
+				<div class="item">Cras justo odio</div>
+				<div class="item">Dapibus ac facilisis in</div>
+				<div class="item">Morbi leo risus</div>
+				<div class="item">Porta ac consectetur ac</div>
+				<div class="item">Vestibulum at eros</div>
+				<div class="item">Cras justo odio</div>
+				<div class="item">Dapibus ac facilisis in</div>
+				<div class="item">Morbi leo risus</div>
+				<div class="item">Porta ac consectetur ac</div>
+				<div class="item">Vestibulum at eros</div>
+		</div>
+		</div>
+	</div>
+</div>
+<script src="jquery/jquery.js"></script>
+<script src="css/bootstrap/dist/js/bootstrap.js"></script>
+<script src="js/list.js"></script>
+<script>
+$(function(){
+    var options = {
+        class: ['item'],
+        parentId: "custom-search-input",
+        childrenTag: 'div'
+    };
+    $('#search').search(options);
+});
+</script>
+</body>
+</html>

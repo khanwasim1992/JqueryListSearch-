@@ -1,0 +1,17 @@
+.padding{
+	padding: 10px	
+}
+#custom-search-input{
+	border: 1px solid #ccc;
+	margin-top: 8px;
+	max-height:300px;
+	overflow:auto;
+}
+#custom-search-input > div{
+	padding:5px;
+	border-bottom: 1px solid #ccc;
+	font-size: 16px;
+}
+#custom-search-input > div:last-child{
+	border-bottom:0px
+}
