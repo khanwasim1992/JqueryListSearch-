@@ -28,5 +28,13 @@ $(function(){
  1. The Search List 
  
  ![alt text](https://github.com/khanwasim1992/JqueryListSearch-/blob/master/list.PNG)
-    
+ 
+ 2. With Search Result
+ 
+ ![alt text](https://github.com/khanwasim1992/JqueryListSearch-/blob/master/with-search-result.PNG)   
+ 
+ 3.With No Search Result
+ 
+ ![alt text](https://github.com/khanwasim1992/JqueryListSearch-/blob/master/with-no-result.PNG)
+  
   
