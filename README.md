@@ -15,12 +15,13 @@ Latest Jquery Library project using version v2.2.4
 Give examples
 
 $(function(){  
-  var options = {
-        class: ['name','address'], // Class name of filed in a list element
-        parentId: "customerSearch", // List Item Container Id
-        childrenTag: 'a' //List Item Here is anchor tag it will be 'div' or 'li' or user define 
-    };
-    
+
+      var options = {
+          class: ['name','address'], // Class name of filed in a list element
+          parentId: "customerSearch", // List Item Container Id
+          childrenTag: 'a' //List Item Here is anchor tag it will be 'div' or 'li' or user define 
+      };
+  
     $('#listSearch').search(options); //input element refrance  
 })  
  
