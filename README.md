@@ -2,7 +2,7 @@
 
 Perform search in a list within specified element in a list.
 This plugin is created for the search list structure show in image given with the project.
-But you can extend the functionality of this search according to your usage.
+You can easily extend the functionality of plugin by customize as per your usage. 
 
 ## Getting Started
 
