@@ -1,7 +1,7 @@
 # Jquery List Search 
 
 Perform search in a list within specified element in a list.
-This plugin is created for the search list structure show in image gicven with the project.
+This plugin is created for the search list structure show in image given with the project.
 But you can extend the functionality of this search according to your usage.
 
 ## Getting Started
