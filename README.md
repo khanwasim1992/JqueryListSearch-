@@ -26,6 +26,7 @@ $(function(){
 })  
  
  1. The Search List 
+ 
  ![alt text](https://github.com/khanwasim1992/JqueryListSearch-/blob/master/list.PNG)
     
   
